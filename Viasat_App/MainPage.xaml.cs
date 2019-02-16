@@ -18,5 +18,14 @@ namespace Viasat_App
         {
             await Navigation.PushAsync(new SearchPage());
         }
+
+        private async void profileButton_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new ProfilePage());
+        }
+
+
+
+
     }
 }

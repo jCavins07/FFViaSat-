@@ -24,3 +24,4 @@
 /Users/enriquealonsoesposito/Desktop/Viasat/Project/Viasat_App/FFViaSat-/Viasat_App/obj/Debug/netstandard2.0/Viasat_App.pdb
 /Users/enriquealonsoesposito/Desktop/Viasat/Project/Viasat_App/FFViaSat-/Viasat_App/obj/Debug/netstandard2.0/ItemPage.xaml.g.cs
 /Users/enriquealonsoesposito/Desktop/Viasat/Project/Viasat_App/FFViaSat-/Viasat_App/obj/Debug/netstandard2.0/SearchPage.xaml.g.cs
+/Users/enriquealonsoesposito/Desktop/Viasat/Project/Viasat_App/FFViaSat-/Viasat_App/obj/Debug/netstandard2.0/ProfilePage.xaml.g.cs

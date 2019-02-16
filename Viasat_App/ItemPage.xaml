@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-             x:Class="Viasat_App.ItemPage">
+             x:Class="Viasat_App.ItemPage"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core" 
+    ios:Page.UseSafeArea="true">
     
     <ContentPage.Content>
             <StackLayout>
@@ -11,17 +13,17 @@
         
         <Button HorizontalOptions="Center" VerticalOptions="Center"
                 x:Name="componentsButton"
-                Text="Components"
+                Text="To ComponentsPage"
                 />
         
         <Button HorizontalOptions="Center" VerticalOptions="Center"
                 x:Name="commentsButton"
-                Text="Comments"
+                Text="To CommentsPage"
                 />
         
         <Button HorizontalOptions="Center" VerticalOptions="Center"
                 x:Name="infoButton"
-                Text="+Info?"
+                Text="To +InfoPage?"
                 />
                 
     </StackLayout>

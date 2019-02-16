@@ -1,16 +1,18 @@
 ﻿<Properties StartupConfiguration="{1FDA5C01-26EB-4210-8C69-A1F2056C4C75}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Viasat_App/ResultsPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Viasat_App/ComponentsPage.xaml">
     <Files>
       <File FileName="Viasat_App/MainPage.xaml.cs" Line="29" Column="9" />
       <File FileName="Viasat_App/SearchPage.xaml.cs" Line="1" Column="1" />
       <File FileName="Viasat_App/ProfilePage.xaml.cs" Line="1" Column="1" />
       <File FileName="Viasat_App/ItemPage.xaml.cs" Line="1" Column="1" />
-      <File FileName="Viasat_App/ResultsPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="Viasat_App/ResultsPage.xaml.cs" Line="16" Column="1" />
+      <File FileName="Viasat_App/ComponentsPage.xaml.cs" Line="1" Column="1" />
       <File FileName="Viasat_App/MainPage.xaml" Line="23" Column="47" NotebookId="1" />
-      <File FileName="Viasat_App/SearchPage.xaml" Line="6" Column="32" NotebookId="1" />
-      <File FileName="Viasat_App/ProfilePage.xaml" Line="18" Column="24" NotebookId="1" />
-      <File FileName="Viasat_App/ItemPage.xaml" Line="6" Column="32" NotebookId="1" />
-      <File FileName="Viasat_App/ResultsPage.xaml" Line="4" Column="14" NotebookId="1" />
+      <File FileName="Viasat_App/SearchPage.xaml" Line="17" Column="37" NotebookId="1" />
+      <File FileName="Viasat_App/ProfilePage.xaml" Line="15" Column="25" NotebookId="1" />
+      <File FileName="Viasat_App/ItemPage.xaml" Line="31" Column="15" NotebookId="1" />
+      <File FileName="Viasat_App/ResultsPage.xaml" Line="24" Column="1" NotebookId="1" />
+      <File FileName="Viasat_App/ComponentsPage.xaml" Line="4" Column="14" NotebookId="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

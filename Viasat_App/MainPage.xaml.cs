@@ -14,6 +14,8 @@ namespace Viasat_App
             InitializeComponent();
         }
 
+        //START: BUTTONS EVENTS #######################################################
+
         private async void searchButton_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new SearchPage());
@@ -23,6 +25,8 @@ namespace Viasat_App
         {
             await Navigation.PushAsync(new ProfilePage());
         }
+
+        //END: BUTTONS EVENTS ##########################################################
 
 
 

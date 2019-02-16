@@ -11,10 +11,6 @@
                 Text="This is the profile page"
                 />
         
-        <Button HorizontalOptions="Center" VerticalOptions="Center"
-                x:Name="nothing"
-                Text="nothing"
-                />
             </StackLayout>
         
     </ContentPage.Content>

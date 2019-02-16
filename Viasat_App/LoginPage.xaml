@@ -51,6 +51,10 @@
                 FontSize="Medium"
                 Clicked="loginButton_Clicked"
                 />
+            
+            <Label
+                Text="For testing: Un: Admin and Pwd: 1234"
+                />
         
         </StackLayout>
     

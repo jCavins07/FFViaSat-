@@ -20,6 +20,7 @@
         <Button HorizontalOptions="Center" VerticalOptions="Center"
                 x:Name="profileButton"
                 Text="Profile"
+                Clicked="profileButton_Clicked"
                 />
         
         <Button HorizontalOptions="Center" VerticalOptions="Center"

@@ -11,5 +11,20 @@ namespace Viasat_App
         {
             InitializeComponent();
         }
+
+        private async void componentsButton_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new ComponentsPage());
+        }
+
+        private async void commentsButton_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new CommentsPage());
+        }
+
+        private async void infoButton_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new InfoPage());
+        }
     }
 }

@@ -12,8 +12,8 @@
                 />
         
         <Button HorizontalOptions="Center" VerticalOptions="Center"
-                x:Name="searchButton"
-                Text="Search"
+                x:Name="nothing"
+                Text="nothing"
                 />
             </StackLayout>
         

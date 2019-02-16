@@ -14,16 +14,19 @@
         <Button HorizontalOptions="Center" VerticalOptions="Center"
                 x:Name="componentsButton"
                 Text="To ComponentsPage"
+                Clicked="componentsButton_Clicked"
                 />
         
         <Button HorizontalOptions="Center" VerticalOptions="Center"
                 x:Name="commentsButton"
                 Text="To CommentsPage"
+                Clicked="commentsButton_Clicked"
                 />
         
         <Button HorizontalOptions="Center" VerticalOptions="Center"
                 x:Name="infoButton"
                 Text="To +InfoPage?"
+                Clicked="infoButton_Clicked"
                 />
                 
     </StackLayout>

@@ -12,6 +12,7 @@
         <Button HorizontalOptions="Center" VerticalOptions="Center"
                 x:Name="searchButton"
                 Text="Search"
+                Clicked="searchButton_Clicked"
                 />
         
         <Button HorizontalOptions="Center" VerticalOptions="Center"
@@ -34,6 +35,5 @@
                 Text="Comments"
                 />
                 
-        
     </StackLayout>
 </ContentPage>

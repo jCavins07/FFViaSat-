@@ -10,3 +10,17 @@
 /Users/enriquealonsoesposito/Desktop/Viasat/Project/Viasat_App/Viasat_App/obj/Debug/netstandard2.0/XamlC.stamp
 /Users/enriquealonsoesposito/Desktop/Viasat/Project/Viasat_App/Viasat_App/obj/Debug/netstandard2.0/Viasat_App.dll
 /Users/enriquealonsoesposito/Desktop/Viasat/Project/Viasat_App/Viasat_App/obj/Debug/netstandard2.0/Viasat_App.pdb
+/Users/enriquealonsoesposito/Desktop/Viasat/Project/Viasat_App/FFViaSat-/Viasat_App/bin/Debug/netstandard2.0/Viasat_App.deps.json
+/Users/enriquealonsoesposito/Desktop/Viasat/Project/Viasat_App/FFViaSat-/Viasat_App/bin/Debug/netstandard2.0/Viasat_App.dll
+/Users/enriquealonsoesposito/Desktop/Viasat/Project/Viasat_App/FFViaSat-/Viasat_App/bin/Debug/netstandard2.0/Viasat_App.pdb
+/Users/enriquealonsoesposito/Desktop/Viasat/Project/Viasat_App/FFViaSat-/Viasat_App/obj/Debug/netstandard2.0/Viasat_App.csprojAssemblyReference.cache
+/Users/enriquealonsoesposito/Desktop/Viasat/Project/Viasat_App/FFViaSat-/Viasat_App/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/enriquealonsoesposito/Desktop/Viasat/Project/Viasat_App/FFViaSat-/Viasat_App/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/enriquealonsoesposito/Desktop/Viasat/Project/Viasat_App/FFViaSat-/Viasat_App/obj/Debug/netstandard2.0/Viasat_App.csproj.CoreCompileInputs.cache
+/Users/enriquealonsoesposito/Desktop/Viasat/Project/Viasat_App/FFViaSat-/Viasat_App/obj/Debug/netstandard2.0/Viasat_App.AssemblyInfoInputs.cache
+/Users/enriquealonsoesposito/Desktop/Viasat/Project/Viasat_App/FFViaSat-/Viasat_App/obj/Debug/netstandard2.0/Viasat_App.AssemblyInfo.cs
+/Users/enriquealonsoesposito/Desktop/Viasat/Project/Viasat_App/FFViaSat-/Viasat_App/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/enriquealonsoesposito/Desktop/Viasat/Project/Viasat_App/FFViaSat-/Viasat_App/obj/Debug/netstandard2.0/Viasat_App.dll
+/Users/enriquealonsoesposito/Desktop/Viasat/Project/Viasat_App/FFViaSat-/Viasat_App/obj/Debug/netstandard2.0/Viasat_App.pdb
+/Users/enriquealonsoesposito/Desktop/Viasat/Project/Viasat_App/FFViaSat-/Viasat_App/obj/Debug/netstandard2.0/ItemPage.xaml.g.cs
+/Users/enriquealonsoesposito/Desktop/Viasat/Project/Viasat_App/FFViaSat-/Viasat_App/obj/Debug/netstandard2.0/SearchPage.xaml.g.cs

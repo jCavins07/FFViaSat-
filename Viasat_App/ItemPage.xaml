@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="Viasat_App.ItemPage">
+    
+    <ContentPage.Content>
+            <StackLayout>
+        <Label HorizontalOptions="Center" VerticalOptions="Center"
+            Text="This is the item page"
+            />
+        
+        <Button HorizontalOptions="Center" VerticalOptions="Center"
+                x:Name="componentsButton"
+                Text="Components"
+                />
+        
+        <Button HorizontalOptions="Center" VerticalOptions="Center"
+                x:Name="commentsButton"
+                Text="Comments"
+                />
+        
+        <Button HorizontalOptions="Center" VerticalOptions="Center"
+                x:Name="infoButton"
+                Text="+Info?"
+                />
+                
+    </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

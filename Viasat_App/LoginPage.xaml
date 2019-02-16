@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="Viasat_App.LoginPage">
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core" ios:Page.UseSafeArea="true">
+   
+    
+    <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+        
+        <StackLayout Orientation="Vertical" VerticalOptions="StartAndExpand" Padding="5" Margin="5">
+
+            <Image
+                x:Name="logoImage"
+                Source="http://www.arconics.com/wp-content/uploads/sites/7/2017/12/Viasat-new-logo-nov-17.png"
+                HeightRequest="100"
+                WidthRequest="320"
+                />
+        
+            <BoxView
+                BackgroundColor="White"
+                MinimumWidthRequest="500"
+                MinimumHeightRequest="200"
+                />
+        
+            <Label
+                x:Name="usernameLabel"
+                Text="Username:" 
+                />
+        
+            <Entry
+                x:Name="usernameEntry"
+                Placeholder="username"
+                />
+            
+            <Label
+                x:Name="passwordLabel"
+                Text="Password:"
+                />
+        
+            <Entry
+                x:Name="passwordEntry"
+                Placeholder="password"
+                IsPassword="true"
+                />
+        
+            <Button
+                x:Name="loginButton"
+                Text="Login"
+                TextColor="White"
+                BackgroundColor="#009FE3"
+                FontSize="Medium"
+                Clicked="loginButton_Clicked"
+                />
+        
+        </StackLayout>
+    
+        <StackLayout Orientation="Vertical" VerticalOptions="End">
+            <Button
+                x:Name="helpButton"
+                VerticalOptions="End"
+                HorizontalOptions="Center"
+                Text="Help"
+                TextColor="#BED733"
+                FontSize="Medium"
+                />
+            </StackLayout>
+        
+        </StackLayout>
+    
+</ContentPage>

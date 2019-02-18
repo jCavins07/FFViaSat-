@@ -715,19 +715,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/enriquealonsoesposito/.nuget/packages/": {}
+    "/Users/mstrickland/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/enriquealonsoesposito/Desktop/Viasat/Project/Viasat_App/FFViaSat-/Viasat_App.iOS/Viasat_App.iOS.csproj",
+      "projectUniqueName": "/Users/mstrickland/Documents/CM Central Work/Fab Friday/FFViaSat-/Viasat_App.iOS/Viasat_App.iOS.csproj",
       "projectName": "Viasat_App.iOS",
-      "projectPath": "/Users/enriquealonsoesposito/Desktop/Viasat/Project/Viasat_App/FFViaSat-/Viasat_App.iOS/Viasat_App.iOS.csproj",
-      "packagesPath": "/Users/enriquealonsoesposito/.nuget/packages/",
-      "outputPath": "/Users/enriquealonsoesposito/Desktop/Viasat/Project/Viasat_App/FFViaSat-/Viasat_App.iOS/obj",
+      "projectPath": "/Users/mstrickland/Documents/CM Central Work/Fab Friday/FFViaSat-/Viasat_App.iOS/Viasat_App.iOS.csproj",
+      "packagesPath": "/Users/mstrickland/.nuget/packages/",
+      "outputPath": "/Users/mstrickland/Documents/CM Central Work/Fab Friday/FFViaSat-/Viasat_App.iOS/obj",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/enriquealonsoesposito/.config/NuGet/NuGet.Config"
+        "/Users/mstrickland/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
@@ -738,8 +738,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/enriquealonsoesposito/Desktop/Viasat/Project/Viasat_App/FFViaSat-/Viasat_App/Viasat_App.csproj": {
-              "projectPath": "/Users/enriquealonsoesposito/Desktop/Viasat/Project/Viasat_App/FFViaSat-/Viasat_App/Viasat_App.csproj"
+            "/Users/mstrickland/Documents/CM Central Work/Fab Friday/FFViaSat-/Viasat_App/Viasat_App.csproj": {
+              "projectPath": "/Users/mstrickland/Documents/CM Central Work/Fab Friday/FFViaSat-/Viasat_App/Viasat_App.csproj"
             }
           }
         }

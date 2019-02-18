@@ -61,11 +61,11 @@
       ]
     },
     "NETStandard.Library/2.0.3": {
-      "sha512": "R73gEjqCkI2Nw/IlN8QvcgPNklqQiPowp47JwvW0Bnp/RZnjN4UrJwEvWVJWRK1MsQ+HIfGe9i4aQlfK+ei9jA==",
+      "sha512": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "type": "package",
       "path": "netstandard.library/2.0.3",
       "files": [
-        ".signature.p7s",
+        ".nupkg.metadata",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "build/netstandard2.0/NETStandard.Library.targets",
@@ -343,23 +343,23 @@
     ]
   },
   "packageFolders": {
-    "/Users/enriquealonsoesposito/.nuget/packages/": {},
+    "/Users/mstrickland/.nuget/packages/": {},
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/enriquealonsoesposito/Desktop/Viasat/Project/Viasat_App/FFViaSat-/Viasat_App/Viasat_App.csproj",
+      "projectUniqueName": "/Users/mstrickland/Documents/CM Central Work/Fab Friday/FFViaSat-/Viasat_App/Viasat_App.csproj",
       "projectName": "Viasat_App",
-      "projectPath": "/Users/enriquealonsoesposito/Desktop/Viasat/Project/Viasat_App/FFViaSat-/Viasat_App/Viasat_App.csproj",
-      "packagesPath": "/Users/enriquealonsoesposito/.nuget/packages/",
-      "outputPath": "/Users/enriquealonsoesposito/Desktop/Viasat/Project/Viasat_App/FFViaSat-/Viasat_App/obj",
+      "projectPath": "/Users/mstrickland/Documents/CM Central Work/Fab Friday/FFViaSat-/Viasat_App/Viasat_App.csproj",
+      "packagesPath": "/Users/mstrickland/.nuget/packages/",
+      "outputPath": "/Users/mstrickland/Documents/CM Central Work/Fab Friday/FFViaSat-/Viasat_App/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/enriquealonsoesposito/.config/NuGet/NuGet.Config"
+        "/Users/mstrickland/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"

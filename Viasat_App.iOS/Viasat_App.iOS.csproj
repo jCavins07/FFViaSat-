@@ -157,4 +157,7 @@
       <Name>Viasat_App</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets.xcassets\Profile.imageset\" />
+  </ItemGroup>
 </Project>

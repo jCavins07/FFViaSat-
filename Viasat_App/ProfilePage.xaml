@@ -15,15 +15,29 @@
             <RowDefinition Height="AUTO"/>
         </Grid.RowDefinitions>
         
-        <BoxView HorizontalOptions="FillAndExpand" Grid.Row="0" 
-                VerticalOptions="Start" Color="Blue">
-        <Label TextColor="White" Fontsize="20"
-                Text="Profile Page" 
-                VerticalOptions="Center" HorizontalOptions="Start">
-        <StackLayout Grid.Row="1" >
-            <Image Source="photos/proPic.jpg"  HorizontalOptions="Start"
-            VerticalOptions="FillAndExpand" WidthRequest="100" HeightRequest="100">
-        </StackLayout>
+        <BoxView 
+            HorizontalOptions="FillAndExpand" 
+            Grid.Row="0" 
+            VerticalOptions="Start" 
+            Color="Blue"
+            />
+        <Label 
+            TextColor="White" 
+            FontSize="20"
+            Text="Profile Page" 
+            VerticalOptions="Center" 
+            HorizontalOptions="Start"
+            />
+            
+            <StackLayout Grid.Row="1" >
+                <Image 
+                    Source="photos/proPic.jpg"  
+                    HorizontalOptions="Start"
+                    VerticalOptions="FillAndExpand" 
+                    WidthRequest="100" 
+                    HeightRequest="100"
+                    />
+            </StackLayout>
         </Grid>
      
     </ContentPage.Content>

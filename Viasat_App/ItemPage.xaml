@@ -7,28 +7,143 @@
     
     <ContentPage.Content>
             <StackLayout>
-        <Label HorizontalOptions="Center" VerticalOptions="Center"
-            Text="This is the item page"
-            />
-        
-        <Button HorizontalOptions="Center" VerticalOptions="Center"
-                x:Name="componentsButton"
-                Text="To ComponentsPage"
-                Clicked="componentsButton_Clicked"
-                />
-        
-        <Button HorizontalOptions="Center" VerticalOptions="Center"
-                x:Name="commentsButton"
-                Text="To CommentsPage"
-                Clicked="commentsButton_Clicked"
-                />
-        
-        <Button HorizontalOptions="Center" VerticalOptions="Center"
-                x:Name="infoButton"
-                Text="To +InfoPage?"
-                Clicked="infoButton_Clicked"
-                />
+            
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="8*"/>
+                    <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
                 
-    </StackLayout>
+                <Label 
+                    x:Name="itemTitleLabel"
+                    HorizontalOptions="Center"
+                    Text="Item Title"
+                    Grid.Row="0"
+                    FontSize="Large"
+                    TextColor="#009FE3"
+                    />
+                
+                <TableView HasUnevenRows="true" Grid.Row="1" Margin="2">
+                    <TableRoot>
+                        
+                        <TableSection>
+                            <ViewCell>
+                                <Label Margin="2">
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <Span
+                                                Text="Serial:"
+                                                FontAttributes="Bold"
+                                                TextColor="#009FE3"
+                                                />
+                                            
+                                            <Span
+                                                Text="  "
+                                                />
+                                            
+                                            <Span
+                                                Text="0123456789876543234567898765432"
+                                                />
+                                            </FormattedString>
+                                        </Label.FormattedText>
+                                    </Label>
+                                </ViewCell>
+                            </TableSection>
+                        
+                            <TableSection>
+                            <ViewCell>
+                                <Label Margin="2">
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <Span
+                                                Text="Description:"
+                                                FontAttributes="Bold"
+                                                TextColor="#009FE3"
+                                                />
+                                            
+                                            <Span
+                                                Text="  "
+                                                />
+                                            
+                                            <Span
+                                                Text="This item has dimensions X, Y and Z and is made of material ABC. "
+                                                />
+                                            </FormattedString>
+                                        </Label.FormattedText>
+                                    </Label>
+                                </ViewCell>
+                            </TableSection>
+                        
+                            <TableSection>
+                                <ViewCell>
+                                    <Label Margin="2">
+                                        <Label.FormattedText>
+                                            <FormattedString>
+                                                <Span
+                                                    Text="In Production:"
+                                                    FontAttributes="Bold"
+                                                    TextColor="#009FE3"
+                                                    />
+                                                
+                                                <Span
+                                                    Text="  "
+                                                    />
+                                                
+                                                <Span
+                                                    Text="YES / NO"
+                                                    />
+                                                </FormattedString>
+                                            </Label.FormattedText>
+                                        </Label>
+                                    </ViewCell>
+                                </TableSection>
+                        
+                        </TableRoot>
+                    </TableView>
+                        
+
+                    <Grid Grid.Row="2" HorizontalOptions="Center" Padding="5">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                        
+                        <Button HorizontalOptions="FillAndExpand" VerticalOptions="Center"
+                            x:Name="componentsButton"
+                            Text="Components"
+                            Clicked="componentsButton_Clicked"
+                            Grid.Column="0"
+                            BackgroundColor="#BED733"
+                            TextColor="White"
+                            FontSize="Large"
+                            FontAttributes="Bold"
+                            />
+                        
+                        <Button HorizontalOptions="FillAndExpand" VerticalOptions="Center"
+                            x:Name="commentsButton"
+                            Text="Comments"
+                            Clicked="commentsButton_Clicked"
+                            Grid.Column="1"
+                            BackgroundColor="#BED733"
+                            TextColor="White"
+                            FontSize="Large"
+                            FontAttributes="Bold"
+                            />
+                    
+                        <Button HorizontalOptions="FillAndExpand" VerticalOptions="Center"
+                            x:Name="infoButton"
+                            Text="+Info"
+                            Clicked="infoButton_Clicked"
+                            Grid.Column="2"
+                            BackgroundColor="#BED733"
+                            TextColor="White"
+                            FontSize="Large"
+                            FontAttributes="Bold"
+                            />
+                        </Grid>
+            </Grid>
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>

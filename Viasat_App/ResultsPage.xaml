@@ -24,7 +24,6 @@
                                     <Grid.ColumnDefinitions>
                                         <ColumnDefinition Width="3*"/>
                                         <ColumnDefinition Width="6*"/>
-                                        <ColumnDefinition Width="*"/>
                                         </Grid.ColumnDefinitions>
                                         <Grid.RowDefinitions>
                                         <RowDefinition Height="*"/>
@@ -45,7 +44,7 @@
                                             x:Name="itemDescriptionLabel"
                                             Grid.Row="0"
                                             Grid.Column="1"
-                                            HorizontalOptions="Start"
+                                            HorizontalOptions="StartAndExpand"
                                             VerticalOptions="Center"
                                             Text="{Binding ItemDescription}"
                                             />
@@ -55,7 +54,7 @@
                                             Grid.Row="1"
                                             Grid.Column="0"
                                             Grid.ColumnSpan="2"
-                                            HorizontalOptions="Start"
+                                            HorizontalOptions="CenterAndExpand"
                                             VerticalOptions="Center"
                                             FontAttributes="Bold"
                                             Text="{Binding ItemSerial}"

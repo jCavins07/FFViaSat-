@@ -7,18 +7,67 @@
     
     <ContentPage.Content>
         
-         <StackLayout>
-             <Label HorizontalOptions="Center" VerticalOptions="Center"
-                Text="This is the Results page"
-                />
-        
-        <Button HorizontalOptions="Center" VerticalOptions="Center"
-                x:Name="searchButton"
-                Text="to ItemPage"
-                Clicked="itemButton_Clicked"
-                />
-         </StackLayout>
-        
+        <StackLayout>
+            
+            <Label HorizontalOptions="CenterAndExpand"
+                   Text="Search results: "
+                   FontSize="Large"
+                   TextColor="#009FE3"
+                   />
+                   
+            <ListView Margin="2" HasUnevenRows="true" x:Name="ResultsListView" ItemTapped="itemEntry_Tapped">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.View>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="3*"/>
+                                        <ColumnDefinition Width="6*"/>
+                                        <ColumnDefinition Width="*"/>
+                                        </Grid.ColumnDefinitions>
+                                        <Grid.RowDefinitions>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                        </Grid.RowDefinitions>
+                                
+                                        <Label
+                                            x:Name="itemTitleLabel"
+                                            Grid.Row="0"
+                                            Grid.Column="0"
+                                            HorizontalOptions="Start"
+                                            VerticalOptions="Center"
+                                            TextColor="#009FE3"
+                                            Text="{Binding ItemTitle}"
+                                            />
+                                    
+                                        <Label
+                                            x:Name="itemDescriptionLabel"
+                                            Grid.Row="0"
+                                            Grid.Column="1"
+                                            HorizontalOptions="Start"
+                                            VerticalOptions="Center"
+                                            Text="{Binding ItemDescription}"
+                                            />
+                                    
+                                        <Label
+                                            x:Name="itemSerialLabel"
+                                            Grid.Row="1"
+                                            Grid.Column="0"
+                                            Grid.ColumnSpan="2"
+                                            HorizontalOptions="Start"
+                                            VerticalOptions="Center"
+                                            FontAttributes="Bold"
+                                            Text="{Binding ItemSerial}"
+                                            />
+                                    </Grid>
+                                </ViewCell.View>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            
+            </StackLayout>   
     </ContentPage.Content>
     
 </ContentPage>

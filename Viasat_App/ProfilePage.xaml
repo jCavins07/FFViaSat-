@@ -3,7 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              x:Class="Viasat_App.ProfilePage"
              xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core" 
-    ios:Page.UseSafeArea="true">
+    ios:Page.UseSafeArea="true"
+             Title="Profile"
+             >
     
     <ContentPage.Content>
         <Grid>
@@ -20,13 +22,6 @@
             Grid.Row="0" 
             VerticalOptions="Start" 
             Color="Blue"
-            />
-        <Label 
-            TextColor="White" 
-            FontSize="20"
-            Text="Profile Page" 
-            VerticalOptions="Center" 
-            HorizontalOptions="Start"
             />
             
             <StackLayout Grid.Row="1" >

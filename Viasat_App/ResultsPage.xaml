@@ -4,18 +4,12 @@
              x:Class="Viasat_App.ResultsPage"
              xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core" 
     ios:Page.UseSafeArea="true"
-             Title="Results"
+             Title="Search results"
              >
     
     <ContentPage.Content>
         
         <StackLayout>
-            
-            <Label HorizontalOptions="CenterAndExpand"
-                   Text="Search results: "
-                   FontSize="Large"
-                   TextColor="#009FE3"
-                   />
                    
             <ListView Margin="2" HasUnevenRows="true" x:Name="ResultsListView" ItemTapped="itemEntry_Tapped">
                 <ListView.ItemTemplate>

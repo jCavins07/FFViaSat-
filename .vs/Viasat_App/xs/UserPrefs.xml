@@ -1,13 +1,11 @@
-﻿<Properties StartupConfiguration="{1FDA5C01-26EB-4210-8C69-A1F2056C4C75}|Default">
+﻿<Properties StartupConfiguration="{0BBD2C5A-F563-4E7F-AF8B-BD8B3F3C482A}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="Viasat_App/ResultsPage.xaml">
     <Files>
-      <File FileName="Viasat_App/CommentsPage.xaml" Line="35" Column="45" />
+      <File FileName="Viasat_App/CommentsPage.xaml" Line="9" Column="5" />
       <File FileName="Viasat_App/CommentsPage.xaml.cs" Line="53" Column="45" />
       <File FileName="Viasat_App/ResultsPage.xaml.cs" Line="32" Column="13" />
-      <File FileName="Viasat_App/CommentPage.xaml" Line="4" Column="14" />
-      <File FileName="Viasat_App/CommentPage.xaml.cs" Line="1" Column="1" />
-      <File FileName="Viasat_App/Models/CommentModel.cs" Line="10" Column="49" />
-      <File FileName="Viasat_App/ResultsPage.xaml" Line="41" Column="55" />
+      <File FileName="Viasat_App/CommentPage.xaml" Line="5" Column="36" />
+      <File FileName="Viasat_App/ResultsPage.xaml" Line="7" Column="21" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

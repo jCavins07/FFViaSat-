@@ -33,7 +33,7 @@ namespace Viasat_App
 
         //START: DEMONSTRATION PURPOSES  ##############################################
 
-        private void PopulateList()
+        private void PopulateList()//Populate a list with hardcoded elements
         {
             ItemList = new ObservableCollection<ItemModel>()
             {

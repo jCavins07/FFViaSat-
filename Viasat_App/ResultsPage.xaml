@@ -38,6 +38,7 @@
                                             VerticalOptions="Center"
                                             TextColor="#009FE3"
                                             Text="{Binding ItemTitle}"
+                                            Margin="3"
                                             />
                                     
                                         <Label

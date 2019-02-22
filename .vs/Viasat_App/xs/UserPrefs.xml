@@ -1,12 +1,10 @@
 ﻿<Properties StartupConfiguration="{1FDA5C01-26EB-4210-8C69-A1F2056C4C75}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Viasat_App/App.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Viasat_App/LoginPage.xaml">
     <Files>
       <File FileName="Viasat_App/MainPage.xaml" Line="23" Column="47" />
       <File FileName="Viasat_App/ProfilePage.xaml" Line="5" Column="1" />
-      <File FileName="Viasat_App/LoginPage.xaml" Line="52" Column="17" />
-      <File FileName="Viasat_App/LoginPage.xaml.cs" Line="24" Column="20" />
-      <File FileName="Viasat_App/App.xaml" Line="4" Column="14" />
-      <File FileName="Viasat_App/App.xaml.cs" Line="19" Column="26" />
+      <File FileName="Viasat_App/LoginPage.xaml" Line="8" Column="1" />
+      <File FileName="Viasat_App/LoginPage.xaml.cs" Line="25" Column="23" />
       <File FileName="Viasat_App/MainPage.xaml.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>

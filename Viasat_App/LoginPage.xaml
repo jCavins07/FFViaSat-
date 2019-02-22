@@ -24,7 +24,7 @@
         
             <Label
                 x:Name="usernameLabel"
-                Text="Username:" 
+                Text="User:" 
                 />
         
             <Entry

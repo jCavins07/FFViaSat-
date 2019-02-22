@@ -15,7 +15,7 @@
         <Button HorizontalOptions="Center" VerticalOptions="Center"
                 x:Name="searchButton"
                 Text="to ItemPage"
-                Clicked="itemButton_Clicked"
+                
                 />
          </StackLayout>
         

@@ -3,41 +3,38 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              x:Class="Viasat_App.ProfilePage"
              xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core" 
-    ios:Page.UseSafeArea="true">
-    
+    ios:Page.UseSafeArea="true"
+             Title="Profile"
+             >
+
     <ContentPage.Content>
         <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="AUTO"/>
-            <RowDefinition Height="AUTO"/>
-            <RowDefinition Height="AUTO"/>
-            <RowDefinition Height="AUTO"/>
-            <RowDefinition Height="AUTO"/>
-        </Grid.RowDefinitions>
-        
-        <BoxView HorizontalOptions="FillAndExpand" Grid.Row="0" 
-                VerticalOptions="Start" Color="Blue"/>
-        <Label TextColor="White" Fontsize="20"
-                Text="Profile Page" 
-                VerticalOptions="Center" HorizontalOptions="Start"/>
-        <StackLayout Grid.Row="1" Padding="15">
-            <Image Source="photos/proPic.jpg"  HorizontalOptions="Start"
-            VerticalOptions="FillAndExpand" WidthRequest="100" HeightRequest="100"/>
-            <Label Fontsize="14" TextColor="Black"
-            Text=
-            "Name: John Smith
-            Email: jSmith@email.com
-            ID: 00000000
-            number: 123456789"/>
-        </StackLayout>
-                
-        <StackLayout Grid.Row="2" Grid.RowSpan="2">
-            
-        </StackLayout>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="AUTO"/>
+                <RowDefinition Height="AUTO"/>
+                <RowDefinition Height="AUTO"/>
+                <RowDefinition Height="AUTO"/>
+                <RowDefinition Height="AUTO"/>
+            </Grid.RowDefinitions>
 
+            <BoxView 
+            HorizontalOptions="FillAndExpand" 
+            Grid.Row="0" 
+            VerticalOptions="Start" 
+            Color="Blue"
+            />
+
+            <StackLayout Grid.Row="1" >
+                <Image 
+                    Source="photos/proPic.jpg"  
+                    HorizontalOptions="Start"
+                    VerticalOptions="FillAndExpand" 
+                    WidthRequest="100" 
+                    HeightRequest="100"
+                    />
+            </StackLayout>
         </Grid>
-     
-    </ContentPage.Content>
-    
-</ContentPage>
 
+    </ContentPage.Content>
+
+</ContentPage>

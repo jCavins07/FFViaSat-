@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Viasat_App.Android",
+    "\\Viasat_App.Android\\obj\\Debug\\android\\com",
+    "\\Viasat_App.Android\\obj\\Debug\\android\\com\\sahara",
+    "\\Viasat_App.Android\\obj\\Debug\\android\\com\\sahara\\viasat_app",
+    "\\Viasat_App.iOS",
+    "\\Viasat_App.iOS\\bin",
+    "\\Viasat_App.iOS\\bin\\iPhoneSimulator",
+    "\\Viasat_App.iOS\\bin\\iPhoneSimulator\\Debug",
+    "\\Viasat_App.iOS\\obj"
+  ],
+  "SelectedNode": "\\Viasat_App.Android\\Viasat_App.Android.csproj",
+  "PreviewInSolutionExplorer": false
+}

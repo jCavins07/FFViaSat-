@@ -112,3 +112,13 @@
 /Users/enriquealonsoesposito/Desktop/Viasat/Project/Viasat_App/FFViaSat-/Viasat_App.iOS/obj/iPhoneSimulator/Debug/Viasat_App.iOS.csproj.CopyComplete
 /Users/enriquealonsoesposito/Desktop/Viasat/Project/Viasat_App/FFViaSat-/Viasat_App.iOS/obj/iPhoneSimulator/Debug/Viasat_App.iOS.exe
 /Users/enriquealonsoesposito/Desktop/Viasat/Project/Viasat_App/FFViaSat-/Viasat_App.iOS/obj/iPhoneSimulator/Debug/Viasat_App.iOS.pdb
+C:\Users\cinbe\OneDrive\Documents\GitHub\FFViaSat-\Viasat_App.iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\cinbe\OneDrive\Documents\GitHub\FFViaSat-\Viasat_App.iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
+C:\Users\cinbe\OneDrive\Documents\GitHub\FFViaSat-\Viasat_App.iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
+C:\Users\cinbe\OneDrive\Documents\GitHub\FFViaSat-\Viasat_App.iOS\obj\iPhoneSimulator\Debug\coremlc\_PartialAppManifest.items
+C:\Users\cinbe\OneDrive\Documents\GitHub\FFViaSat-\Viasat_App.iOS\obj\iPhoneSimulator\Debug\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\cinbe\OneDrive\Documents\GitHub\FFViaSat-\Viasat_App.iOS\obj\iPhoneSimulator\Debug\optimized\
+C:\Users\cinbe\OneDrive\Documents\GitHub\FFViaSat-\Viasat_App.iOS\obj\iPhoneSimulator\Debug\Viasat_App.iOS.csprojAssemblyReference.cache
+C:\Users\cinbe\OneDrive\Documents\GitHub\FFViaSat-\Viasat_App.iOS\obj\iPhoneSimulator\Debug\Viasat_App.iOS.csproj.CoreCompileInputs.cache
+C:\Users\cinbe\OneDrive\Documents\GitHub\FFViaSat-\Viasat_App.iOS\obj\iPhoneSimulator\Debug\Viasat_App.iOS.exe
+C:\Users\cinbe\OneDrive\Documents\GitHub\FFViaSat-\Viasat_App.iOS\obj\iPhoneSimulator\Debug\Viasat_App.iOS.pdb

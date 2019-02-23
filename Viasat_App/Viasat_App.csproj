@@ -15,4 +15,7 @@
   <ItemGroup>
     <Folder Include="Models\" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="gdfhgjhkj.xaml.cs" />
+  </ItemGroup>
 </Project>

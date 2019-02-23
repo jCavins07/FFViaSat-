@@ -5,5 +5,45 @@
              Title="Comment Details"
              >
     <ContentPage.Content>
+        <StackLayout>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="2*"/>
+                    </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                
+                
+                <Label
+                    Grid.Row="0"
+                    Grid.Column="0"
+                    Text="Test"
+                    />
+                
+                </Grid>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            <Grid>
+                
+                </Grid>
+        
+        </StackLayout>
+        
+        
+        
     </ContentPage.Content>
 </ContentPage>

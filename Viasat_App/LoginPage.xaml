@@ -52,10 +52,6 @@
                 Clicked="loginButton_Clicked"
                 CornerRadius="0"
                 />
-            
-            <Label
-                Text="For testing: Un: Admin and Pwd: 1234"
-                />
         
         </StackLayout>
     

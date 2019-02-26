@@ -12,22 +12,28 @@ namespace Viasat_App
             InitializeComponent();
         }
 
-        //testing purposes:
-        string username = "Admin";
-        string password = "1234";
-
         private async void loginButton_Clicked(object sender, EventArgs e)
         {
-            //Testing logic
-            if (usernameEntry.Text == username && passwordEntry.Text == password)
-            {
-                await DisplayAlert("SUCCESS", "success message", "OK");
-                await Navigation.PushAsync(new MainPage());
-            }
-            else
-            {
-                await DisplayAlert("ON FAIL", "Username or Password were incorrect. Please try again.", "OK");
-            }
+            await Navigation.PushAsync(new MainPage());
+
+            //LOGIN CODE HERE ############################################################
+
+            //if(UsernameEnteredExistsInDB() && UsernameEntered.Password == passwordEntry.Text)
+            //{
+            //    //LOGIN SUCCESS
+            //    //RETRIEVE SESSION DATA FROM DB
+            //    //POPULATE SESSION DATA IN THE APP
+            //    //NAVIGATE TO HOME PAGE
+            //}
+            //else
+            //{
+            //    //LOGIN FAILURE
+            //    //PROMPT LOGIN ERROR MESSAGE
+            //    //INITIALIZE SECURITY PROTOCOL?
+            //}
+
+            //############################################################################
+
         }
     }
 }

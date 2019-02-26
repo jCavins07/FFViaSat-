@@ -724,8 +724,9 @@
       "projectName": "Viasat_App.iOS",
       "projectPath": "/Users/enriquealonsoesposito/Desktop/Viasat/Project/Viasat_App/FFViaSat-/Viasat_App.iOS/Viasat_App.iOS.csproj",
       "packagesPath": "/Users/enriquealonsoesposito/.nuget/packages/",
-      "outputPath": "/Users/enriquealonsoesposito/Desktop/Viasat/Project/Viasat_App/FFViaSat-/Viasat_App.iOS/obj",
+      "outputPath": "/Users/enriquealonsoesposito/Desktop/Viasat/Project/Viasat_App/FFViaSat-/Viasat_App.iOS/obj/",
       "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
       "configFilePaths": [
         "/Users/enriquealonsoesposito/.config/NuGet/NuGet.Config"
       ],

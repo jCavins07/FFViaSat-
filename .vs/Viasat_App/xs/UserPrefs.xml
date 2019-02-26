@@ -1,9 +1,24 @@
 ﻿<Properties StartupConfiguration="{1FDA5C01-26EB-4210-8C69-A1F2056C4C75}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Viasat_App/Models/ItemModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Viasat_App/Models/CommentModel.cs">
     <Files>
       <File FileName="Viasat_App/LoginPage.xaml" Line="53" Column="32" />
-      <File FileName="Viasat_App/Models/ItemModel.cs" Line="1" Column="1" />
+      <File FileName="Viasat_App/Models/ItemModel.cs" Line="11" Column="2" />
+      <File FileName="Viasat_App/Models/CommentModel.cs" Line="1" Column="1" />
+      <File FileName="Viasat_App/Models/Globals.cs" Line="1" Column="1" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Viasat_App" expanded="True">
+            <Node name="Viasat_App" expanded="True">
+              <Node name="Models" expanded="True">
+                <Node name="CommentModel.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.Viasat__App.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.8331247F-360E-4520-AD65-D8D2354C0638" />

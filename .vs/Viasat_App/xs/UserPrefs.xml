@@ -1,24 +1,22 @@
 ﻿<Properties StartupConfiguration="{1FDA5C01-26EB-4210-8C69-A1F2056C4C75}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Viasat_App/SearchPage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Viasat_App/Models/ItemModel.cs">
     <Files>
-      <File FileName="Viasat_App/LoginPage.xaml" Line="54" Column="19" />
-      <File FileName="Viasat_App/MainPage.xaml.cs" Line="1" Column="1" />
-      <File FileName="Viasat_App/Models/Globals.cs" Line="10" Column="2" />
-      <File FileName="Viasat_App/Models/ItemModel.cs" Line="1" Column="1" />
-      <File FileName="Viasat_App/Models/CommentModel.cs" Line="1" Column="1" />
-      <File FileName="Viasat_App/Models/UserModel.cs" Line="1" Column="1" />
-      <File FileName="Viasat_App/SearchPage.xaml.cs" Line="26" Column="11" />
+      <File FileName="Viasat_App/MainPage.xaml.cs" Line="33" Column="9" />
+      <File FileName="Viasat_App/SearchPage.xaml.cs" Line="39" Column="5" />
+      <File FileName="Viasat_App/LoginPage.xaml.cs" Line="16" Column="10" />
+      <File FileName="Viasat_App/Models/ItemModel.cs" Line="11" Column="51" />
+      <File FileName="Viasat_App/Models/CommentModel.cs" Line="10" Column="50" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Viasat_App" expanded="True">
             <Node name="Viasat_App" expanded="True">
-              <Node name="Models" expanded="True" />
-              <Node name="MainPage.xaml" expanded="True" />
-              <Node name="SearchPage.xaml" expanded="True">
-                <Node name="SearchPage.xaml.cs" selected="True" />
+              <Node name="Models" expanded="True">
+                <Node name="ItemModel.cs" selected="True" />
               </Node>
+              <Node name="MainPage.xaml" expanded="True" />
+              <Node name="SearchPage.xaml" expanded="True" />
             </Node>
           </Node>
         </State>

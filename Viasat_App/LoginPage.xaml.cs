@@ -14,7 +14,7 @@ namespace Viasat_App
 
         private async void loginButton_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new MainPage());
+            await Navigation.PushAsync(new MainPage(usernameEntry.Text));
 
             //LOGIN CODE HERE ############################################################
 

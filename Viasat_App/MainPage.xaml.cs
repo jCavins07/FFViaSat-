@@ -27,6 +27,11 @@ namespace Viasat_App
             await Navigation.PushAsync(new ProfilePage());
         }
 
+
+
+
+
+
         //END: BUTTONS EVENTS ##########################################################
 
 

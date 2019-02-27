@@ -1,19 +1,24 @@
 ﻿<Properties StartupConfiguration="{1FDA5C01-26EB-4210-8C69-A1F2056C4C75}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Viasat_App/Models/Globals.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Viasat_App/SearchPage.xaml.cs">
     <Files>
       <File FileName="Viasat_App/LoginPage.xaml" Line="54" Column="19" />
       <File FileName="Viasat_App/MainPage.xaml.cs" Line="1" Column="1" />
-      <File FileName="Viasat_App/Models/Globals.cs" Line="8" Column="23" />
+      <File FileName="Viasat_App/Models/Globals.cs" Line="10" Column="2" />
+      <File FileName="Viasat_App/Models/ItemModel.cs" Line="1" Column="1" />
+      <File FileName="Viasat_App/Models/CommentModel.cs" Line="1" Column="1" />
+      <File FileName="Viasat_App/Models/UserModel.cs" Line="1" Column="1" />
+      <File FileName="Viasat_App/SearchPage.xaml.cs" Line="26" Column="11" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Viasat_App" expanded="True">
             <Node name="Viasat_App" expanded="True">
-              <Node name="Models" expanded="True">
-                <Node name="Globals.cs" selected="True" />
-              </Node>
+              <Node name="Models" expanded="True" />
               <Node name="MainPage.xaml" expanded="True" />
+              <Node name="SearchPage.xaml" expanded="True">
+                <Node name="SearchPage.xaml.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>

@@ -3,18 +3,76 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              x:Class="Viasat_App.CommentsPage"
              xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core" 
-    ios:Page.UseSafeArea="true">
+    ios:Page.UseSafeArea="true"
+             Title="Comments"
+             >
     
     <ContentPage.Content>
         
         <StackLayout>
-            <Label
-                Text="This is the comments list page"
-                />
-            <Button
-                x:Name="commentButton"
-                Text="To commentSpecificPage"
-                />
+
+            <ListView Margin="2" HasUnevenRows="true" x:Name="CommentsListView" ItemTapped="commentEntry_Tapped">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.View>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="3*"/>
+                                        <ColumnDefinition Width="6*"/>
+                                        </Grid.ColumnDefinitions>
+                                        <Grid.RowDefinitions>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                        </Grid.RowDefinitions>
+                                
+                                        <Label
+                                            x:Name="commentTitleLabel"
+                                            Grid.Row="0"
+                                            Grid.Column="0"
+                                            HorizontalOptions="Start"
+                                            VerticalOptions="Center"
+                                            TextColor="#009FE3"
+                                            Text="{Binding CommentTitle}"
+                                            Margin="3"
+                                            />
+                                    
+                                        <Label
+                                            x:Name="commentDescriptionLabel"
+                                            Grid.Row="0"
+                                            Grid.Column="1"
+                                            HorizontalOptions="StartAndExpand"
+                                            VerticalOptions="Center"
+                                            Text="{Binding CommentDescription}"
+                                            />
+                                    
+                                        <Label
+                                            x:Name="commentAuthorLabel"
+                                            Grid.Row="1"
+                                            Grid.Column="0"
+                                            HorizontalOptions="Start"
+                                            VerticalOptions="Center"
+                                            FontAttributes="Bold"
+                                            Text="{Binding CommentAuthor}"
+                                            Margin="3"
+                                            />
+                                    
+                                        <Label
+                                            x:Name="commentDateLabel"
+                                            Grid.Row="1"
+                                            Grid.Column="1"
+                                            HorizontalOptions="End"
+                                            VerticalOptions="Center"
+                                            FontAttributes="Bold"
+                                            Text="{Binding CommentDate}"
+                                            Margin="3"
+                                            />
+                                    </Grid>
+                                </ViewCell.View>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
             </StackLayout>
         
     </ContentPage.Content>

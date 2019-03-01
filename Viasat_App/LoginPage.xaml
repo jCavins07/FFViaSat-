@@ -50,8 +50,9 @@
                 BackgroundColor="#009FE3"
                 FontSize="Medium"
                 Clicked="loginButton_Clicked"
+                CornerRadius="0"
                 />
-    
+
         
         </StackLayout>
     

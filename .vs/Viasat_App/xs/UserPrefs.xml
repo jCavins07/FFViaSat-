@@ -1,4 +1,5 @@
 ﻿<Properties StartupConfiguration="{1FDA5C01-26EB-4210-8C69-A1F2056C4C75}|Default">
+
   <MonoDevelop.Ide.Workbench ActiveDocument="Viasat_App/LoginPage.xaml">
     <Files>
       <File FileName="Viasat_App/MainPage.xaml" Line="23" Column="47" />
@@ -6,14 +7,33 @@
       <File FileName="Viasat_App/LoginPage.xaml" Line="8" Column="1" />
       <File FileName="Viasat_App/LoginPage.xaml.cs" Line="25" Column="23" />
       <File FileName="Viasat_App/MainPage.xaml.cs" Line="1" Column="1" />
+
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Viasat_App" expanded="True">
+            <Node name="Viasat_App" expanded="True">
+              <Node name="Models" expanded="True" />
+              <Node name="App.xaml" expanded="True" />
+              <Node name="ItemPage.xaml" expanded="True" selected="True" />
+              <Node name="LoginPage.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+              <Node name="ResultsPage.xaml" expanded="True" />
+              <Node name="SearchPage.xaml" expanded="True" />
+            </Node>
+            <Node name="Viasat_App.iOS" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Viasat__App.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.8331247F-360E-4520-AD65-D8D2354C0638" />
+  <MonoDevelop.Ide.ItemProperties.Viasat__App.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.8331247F-360E-4520-AD65-D8D2354C0638" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.Viasat__App.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+  <MonoDevelop.Ide.ItemProperties.Viasat__App.Android PreferredExecutionTarget="Android.pixel_regular" />
   <MultiItemStartupConfigurations />
 </Properties>

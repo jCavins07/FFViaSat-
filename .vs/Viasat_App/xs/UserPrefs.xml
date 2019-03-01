@@ -1,5 +1,6 @@
 ﻿<Properties StartupConfiguration="{1FDA5C01-26EB-4210-8C69-A1F2056C4C75}|Default">
 <<<<<<< HEAD
+<<<<<<< HEAD
   <MonoDevelop.Ide.Workbench ActiveDocument="Viasat_App/ResultsPage.xaml.cs">
     <Files>
       <File FileName="Viasat_App/ResultsPage.xaml.cs" Line="1" Column="1" />
@@ -20,6 +21,16 @@
         </State>
       </Pad>
     </Pads>
+=======
+  <MonoDevelop.Ide.Workbench ActiveDocument="Viasat_App/LoginPage.xaml">
+    <Files>
+      <File FileName="Viasat_App/MainPage.xaml" Line="23" Column="47" />
+      <File FileName="Viasat_App/ProfilePage.xaml" Line="5" Column="1" />
+      <File FileName="Viasat_App/LoginPage.xaml" Line="8" Column="1" />
+      <File FileName="Viasat_App/LoginPage.xaml.cs" Line="25" Column="23" />
+      <File FileName="Viasat_App/MainPage.xaml.cs" Line="1" Column="1" />
+    </Files>
+>>>>>>> parent of e3a7291... Merge branch 'branchEnrique'
 =======
   <MonoDevelop.Ide.Workbench ActiveDocument="Viasat_App/LoginPage.xaml">
     <Files>

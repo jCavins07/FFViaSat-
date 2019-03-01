@@ -3,197 +3,32 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              x:Class="Viasat_App.ItemPage"
              xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core" 
-    ios:Page.UseSafeArea="true"
-             Title="Item Details"
-             >
+    ios:Page.UseSafeArea="true">
     
     <ContentPage.Content>
             <StackLayout>
-            
-            <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="8*"/>
-                    <RowDefinition Height="*"/>
-                    </Grid.RowDefinitions>
+        <Label HorizontalOptions="Center" VerticalOptions="Center"
+            Text="This is the item page"
+            />
+        
+        <Button HorizontalOptions="Center" VerticalOptions="Center"
+                x:Name="componentsButton"
+                Text="To ComponentsPage"
+                Clicked="componentsButton_Clicked"
+                />
+        
+        <Button HorizontalOptions="Center" VerticalOptions="Center"
+                x:Name="commentsButton"
+                Text="To CommentsPage"
+                Clicked="commentsButton_Clicked"
+                />
+        
+        <Button HorizontalOptions="Center" VerticalOptions="Center"
+                x:Name="infoButton"
+                Text="To +InfoPage?"
+                Clicked="infoButton_Clicked"
+                />
                 
-                <Label 
-                    x:Name="itemTitleLabel"
-                    HorizontalOptions="Center"
-                    Text="{Binding ItemNumber}"
-                    Grid.Row="0"
-                    FontSize="Large"
-                    TextColor="#202E39"
-                    />
-                
-                <TableView HasUnevenRows="true" Grid.Row="1" Margin="2">
-                    <TableRoot>
-                        
-                        <TableSection>
-                            <ViewCell>
-                                <Label Margin="2">
-                                    <Label.FormattedText>
-                                        <FormattedString>
-                                            <Span
-                                                Text="Number:"
-                                                FontAttributes="Bold"
-                                                TextColor="#009FE3"
-                                                />
-                                            
-                                            <Span
-                                                Text="  "
-                                                />
-                                            
-                                            <Span x:Name="itemNumberLabel"
-                                                Text="{Binding ItemNumber}"
-                                                />
-                                            </FormattedString>
-                                        </Label.FormattedText>
-                                    </Label>
-                                </ViewCell>
-                            </TableSection>
-                        
-                            <TableSection>
-                            <ViewCell>
-                                <Label Margin="2">
-                                    <Label.FormattedText>
-                                        <FormattedString>
-                                            <Span
-                                                Text="Description:"
-                                                FontAttributes="Bold"
-                                                TextColor="#009FE3"
-                                                />
-                                            
-                                            <Span
-                                                Text="  "
-                                                />
-                                            
-                                            <Span x:Name="itemDescriptionLabel"
-                                                Text="{Binding ItemDescription}"
-                                                />
-                                            </FormattedString>
-                                        </Label.FormattedText>
-                                    </Label>
-                                </ViewCell>
-                            </TableSection>
-                        
-                            <TableSection>
-                                <ViewCell>
-                                    <Label Margin="2">
-                                        <Label.FormattedText>
-                                            <FormattedString>
-                                                <Span
-                                                    Text="Part Type:"
-                                                    FontAttributes="Bold"
-                                                    TextColor="#009FE3"
-                                                    />
-                                                
-                                                <Span
-                                                    Text="  "
-                                                    />
-                                                
-                                                <Span x:Name="itemPartTypeLabel"
-                                                    Text="{Binding ItemPartType}"
-                                                    />
-                                                </FormattedString>
-                                            </Label.FormattedText>
-                                        </Label>
-                                    </ViewCell>
-                                </TableSection>
-                        
-                             <TableSection>
-                                <ViewCell>
-                                    <Label Margin="2">
-                                        <Label.FormattedText >
-                                            <FormattedString>
-                                                <Span
-                                                    Text="Revision:"
-                                                    FontAttributes="Bold"
-                                                    TextColor="#009FE3"
-                                                    />
-                                                
-                                                <Span
-                                                    Text="  "
-                                                    />
-                                                
-                                                <Span x:Name="itemRevisionLabel"
-                                                    Text="{Binding ItemRevision}"
-                                                    />
-                                                </FormattedString>
-                                            </Label.FormattedText>
-                                        </Label>
-                                    </ViewCell>
-                                </TableSection>
-                        
-                             <TableSection>
-                                <ViewCell>
-                                    <Label Margin="2">
-                                        <Label.FormattedText>
-                                            <FormattedString>
-                                                <Span
-                                                    Text="Components:"
-                                                    FontAttributes="Bold"
-                                                    TextColor="#009FE3"
-                                                    />
-                                                
-                                                <Span
-                                                    Text="  "
-                                                    />
-                                                
-                                                <Span
-                                                    Text="1234567, 23453676, 75435236"
-                                                    />
-                                                </FormattedString>
-                                            </Label.FormattedText>
-                                        </Label>
-                                    </ViewCell>
-                                </TableSection>
-                        
-                        </TableRoot>
-                    </TableView>
-                        
-
-                    <Grid Grid.Row="2" HorizontalOptions="Center" Padding="5">
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="*"/>
-                            <ColumnDefinition Width="*"/>
-                            <ColumnDefinition Width="*"/>
-                            </Grid.ColumnDefinitions>
-                        
-                        <Button HorizontalOptions="FillAndExpand" VerticalOptions="Center"
-                            x:Name="componentsButton"
-                            Text="Components"
-                            Clicked="componentsButton_Clicked"
-                            Grid.Column="0"
-                            BackgroundColor="#BED733"
-                            TextColor="White"
-                            FontSize="Large"
-                            FontAttributes="Bold"
-                            />
-                        
-                        <Button HorizontalOptions="FillAndExpand" VerticalOptions="Center"
-                            x:Name="commentsButton"
-                            Text="Comments"
-                            Clicked="commentsButton_Clicked"
-                            Grid.Column="1"
-                            BackgroundColor="#BED733"
-                            TextColor="White"
-                            FontSize="Large"
-                            FontAttributes="Bold"
-                            />
-                    
-                        <Button HorizontalOptions="FillAndExpand" VerticalOptions="Center"
-                            x:Name="infoButton"
-                            Text="+Info"
-                            Clicked="infoButton_Clicked"
-                            Grid.Column="2"
-                            BackgroundColor="#BED733"
-                            TextColor="White"
-                            FontSize="Large"
-                            FontAttributes="Bold"
-                            />
-                        </Grid>
-            </Grid>
-        </StackLayout>
+    </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -3,13 +3,14 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              x:Class="Viasat_App.SearchPage"
              xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core" 
-    ios:Page.UseSafeArea="true"
-             Title="Search"
-             >
+    ios:Page.UseSafeArea="true">
     
     <ContentPage.Content>
         
-    <StackLayout HorizontalOptions="Center">
+            <StackLayout>
+        <Label HorizontalOptions="Center" VerticalOptions="Center"
+            Text="This is the search page"
+            />
         
         <Button HorizontalOptions="Center" VerticalOptions="Center"
                 x:Name="searchButton"

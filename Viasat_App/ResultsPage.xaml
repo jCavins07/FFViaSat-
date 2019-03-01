@@ -3,69 +3,22 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              x:Class="Viasat_App.ResultsPage"
              xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core" 
-    ios:Page.UseSafeArea="true"
-             Title="Search results"
-             >
+    ios:Page.UseSafeArea="true">
     
     <ContentPage.Content>
         
-        <StackLayout>
-                   
-            <ListView Margin="2" HasUnevenRows="true" x:Name="ResultsListView" ItemTapped="itemEntry_Tapped">
-                <ListView.ItemTemplate>
-                    <DataTemplate>
-                        <ViewCell>
-                            <ViewCell.View>
-                                <Grid>
-                                    <Grid.ColumnDefinitions>
-                                        <ColumnDefinition Width="3*"/>
-                                        <ColumnDefinition Width="6*"/>
-                                        </Grid.ColumnDefinitions>
-                                        <Grid.RowDefinitions>
-                                        <RowDefinition Height="*"/>
-                                        <RowDefinition Height="*"/>
-                                        </Grid.RowDefinitions>
-                                
-                                        <Label
-                                            x:Name="itemNumberLabel"
-                                            Grid.Row="0"
-                                            Grid.Column="0"
-                                            HorizontalOptions="Start"
-                                            VerticalOptions="Center"
-                                            TextColor="#009FE3"
-                                            Text="{Binding ItemNumber}"
-                                            Margin="3"
-                                            />
-                                    
-                                        <Label
-                                            x:Name="itemDescriptionLabel"
-                                            Grid.Row="0"
-                                            Grid.Column="1"
-                                            HorizontalOptions="StartAndExpand"
-                                            VerticalOptions="Center"
-                                            Text="{Binding ItemDescription}"
-                                            />
-                                    
-                                        <Label
-                                            x:Name="itemSerialLabel"
-                                            Grid.Row="1"
-                                            Grid.Column="0"
-                                            Grid.ColumnSpan="2"
-                                            HorizontalOptions="CenterAndExpand"
-                                            VerticalOptions="Center"
-                                            FontAttributes="Bold"
-                                            Text="{Binding ItemNumber}"
-                                            />
-                                    </Grid>
-                                </ViewCell.View>
-                            
-                            
-                            </ViewCell>
-                        </DataTemplate>
-                    </ListView.ItemTemplate>
-                </ListView>
-            
-            </StackLayout>   
+         <StackLayout>
+             <Label HorizontalOptions="Center" VerticalOptions="Center"
+                Text="This is the Results page"
+                />
+        
+        <Button HorizontalOptions="Center" VerticalOptions="Center"
+                x:Name="searchButton"
+                Text="to ItemPage"
+                Clicked="itemButton_Clicked"
+                />
+         </StackLayout>
+        
     </ContentPage.Content>
     
 </ContentPage>

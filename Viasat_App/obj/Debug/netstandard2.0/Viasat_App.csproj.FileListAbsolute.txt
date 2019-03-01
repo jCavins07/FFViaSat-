@@ -30,4 +30,3 @@
 /Users/enriquealonsoesposito/Desktop/Viasat/Project/Viasat_App/FFViaSat-/Viasat_App/obj/Debug/netstandard2.0/InfoPage.xaml.g.cs
 /Users/enriquealonsoesposito/Desktop/Viasat/Project/Viasat_App/FFViaSat-/Viasat_App/obj/Debug/netstandard2.0/ResultsPage.xaml.g.cs
 /Users/enriquealonsoesposito/Desktop/Viasat/Project/Viasat_App/FFViaSat-/Viasat_App/obj/Debug/netstandard2.0/LoginPage.xaml.g.cs
-/Users/enriquealonsoesposito/Desktop/Viasat/Project/Viasat_App/FFViaSat-/Viasat_App/obj/Debug/netstandard2.0/CommentPage.xaml.g.cs

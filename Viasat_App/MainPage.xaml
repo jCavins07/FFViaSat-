@@ -4,12 +4,13 @@
              xmlns:local="clr-namespace:Viasat_App" 
              x:Class="Viasat_App.MainPage"
              xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core" 
-    ios:Page.UseSafeArea="true"
-             Title="Home"
-             >
+    ios:Page.UseSafeArea="true">
     
     <StackLayout>
-
+        <Label HorizontalOptions="Center" VerticalOptions="Center"
+            Text="This is the home page"
+            />
+        
         <Button HorizontalOptions="Center" VerticalOptions="Center"
                 x:Name="searchButton"
                 Text="Search"

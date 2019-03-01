@@ -786,9 +786,8 @@
       "projectName": "Viasat_App.Android",
       "projectPath": "/Users/enriquealonsoesposito/Desktop/Viasat/Project/Viasat_App/FFViaSat-/Viasat_App.Android/Viasat_App.Android.csproj",
       "packagesPath": "/Users/enriquealonsoesposito/.nuget/packages/",
-      "outputPath": "/Users/enriquealonsoesposito/Desktop/Viasat/Project/Viasat_App/FFViaSat-/Viasat_App.Android/obj/",
+      "outputPath": "/Users/enriquealonsoesposito/Desktop/Viasat/Project/Viasat_App/FFViaSat-/Viasat_App.Android/obj",
       "projectStyle": "PackageReference",
-      "skipContentFileWrite": true,
       "configFilePaths": [
         "/Users/enriquealonsoesposito/.config/NuGet/NuGet.Config"
       ],

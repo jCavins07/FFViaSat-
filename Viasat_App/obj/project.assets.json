@@ -353,7 +353,7 @@
       "projectName": "Viasat_App",
       "projectPath": "/Users/enriquealonsoesposito/Desktop/Viasat/Project/Viasat_App/FFViaSat-/Viasat_App/Viasat_App.csproj",
       "packagesPath": "/Users/enriquealonsoesposito/.nuget/packages/",
-      "outputPath": "/Users/enriquealonsoesposito/Desktop/Viasat/Project/Viasat_App/FFViaSat-/Viasat_App/obj/",
+      "outputPath": "/Users/enriquealonsoesposito/Desktop/Viasat/Project/Viasat_App/FFViaSat-/Viasat_App/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

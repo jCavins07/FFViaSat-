@@ -6,6 +6,6 @@ namespace Viasat_App
     {
         public string UserName { get; set; }
         public string UserLast { get; set; }
-        public string UserAccessLevel { get; set; }
+        public string UserPermissionLevel { get; set; }
     }
 }

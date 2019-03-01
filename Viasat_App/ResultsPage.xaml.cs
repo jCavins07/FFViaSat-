@@ -10,6 +10,7 @@ namespace Viasat_App
     {
 
         public ObservableCollection<ItemModel> ItemList { get; set; }
+        public ItemModel itemToSend;
 
 
         public ResultsPage()
@@ -20,9 +21,14 @@ namespace Viasat_App
 
         //START: BUTTONS EVENTS #######################################################
 
-        private async void itemEntry_Tapped(object sender, EventArgs e)
+        private async void itemEntry_Tapped(object sender, ItemTappedEventArgs e)
         {
-            await Navigation.PushAsync(new ItemPage());
+            //Creating an object of type ItemModel 
+            ItemModel item = (ItemModel)((ListView)sender).SelectedItem;
+            ((ListView)sender).SelectedItem = null;
+
+            //calling the ItemPage into the stack and passing the selected item by the user
+            await Navigation.PushAsync(new ItemPage(item));
         }
 
         //END: BUTTONS EVENTS #########################################################
@@ -39,23 +45,26 @@ namespace Viasat_App
             {
                 new ItemModel()
                 {
-                    ItemTitle = "Title1",
+                    ItemNumber = "234567845",
                     ItemDescription = "Description1",
-                    ItemSerial = "1234564-565y24531-243561"
+                    ItemPartType = "PWA",
+                    ItemRevision = 9
                 },
 
                 new ItemModel()
                 {
-                    ItemTitle = "Title2",
+                    ItemNumber = "3456765445",
                     ItemDescription = "Description2",
-                    ItemSerial = "123412-ACVBNGTS-F222"
+                    ItemPartType = "NUT",
+                    ItemRevision = 5
                 },
 
                 new ItemModel()
                 {
-                    ItemTitle = "Title3",
+                    ItemNumber = "634567845",
                     ItemDescription = "Description3",
-                    ItemSerial = "1234123-453-212-12222222"
+                    ItemPartType = "CHASSIS",
+                    ItemRevision = 2
                 }
             };
 

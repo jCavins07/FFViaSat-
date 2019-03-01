@@ -27,13 +27,13 @@
                                         </Grid.RowDefinitions>
                                 
                                         <Label
-                                            x:Name="itemTitleLabel"
+                                            x:Name="itemNumberLabel"
                                             Grid.Row="0"
                                             Grid.Column="0"
                                             HorizontalOptions="Start"
                                             VerticalOptions="Center"
                                             TextColor="#009FE3"
-                                            Text="{Binding ItemTitle}"
+                                            Text="{Binding ItemNumber}"
                                             Margin="3"
                                             />
                                     
@@ -54,10 +54,12 @@
                                             HorizontalOptions="CenterAndExpand"
                                             VerticalOptions="Center"
                                             FontAttributes="Bold"
-                                            Text="{Binding ItemSerial}"
+                                            Text="{Binding ItemNumber}"
                                             />
                                     </Grid>
                                 </ViewCell.View>
+                            
+                            
                             </ViewCell>
                         </DataTemplate>
                     </ListView.ItemTemplate>

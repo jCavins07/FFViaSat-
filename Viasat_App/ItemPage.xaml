@@ -20,10 +20,10 @@
                 <Label 
                     x:Name="itemTitleLabel"
                     HorizontalOptions="Center"
-                    Text="Item Title"
+                    Text="{Binding ItemNumber}"
                     Grid.Row="0"
                     FontSize="Large"
-                    TextColor="#009FE3"
+                    TextColor="#202E39"
                     />
                 
                 <TableView HasUnevenRows="true" Grid.Row="1" Margin="2">
@@ -35,7 +35,7 @@
                                     <Label.FormattedText>
                                         <FormattedString>
                                             <Span
-                                                Text="Serial:"
+                                                Text="Number:"
                                                 FontAttributes="Bold"
                                                 TextColor="#009FE3"
                                                 />
@@ -44,8 +44,8 @@
                                                 Text="  "
                                                 />
                                             
-                                            <Span
-                                                Text="0123456789876543234567898765432"
+                                            <Span x:Name="itemNumberLabel"
+                                                Text="{Binding ItemNumber}"
                                                 />
                                             </FormattedString>
                                         </Label.FormattedText>
@@ -68,8 +68,8 @@
                                                 Text="  "
                                                 />
                                             
-                                            <Span
-                                                Text="This item has dimensions X, Y and Z and is made of material ABC. "
+                                            <Span x:Name="itemDescriptionLabel"
+                                                Text="{Binding ItemDescription}"
                                                 />
                                             </FormattedString>
                                         </Label.FormattedText>
@@ -83,7 +83,55 @@
                                         <Label.FormattedText>
                                             <FormattedString>
                                                 <Span
-                                                    Text="In Production:"
+                                                    Text="Part Type:"
+                                                    FontAttributes="Bold"
+                                                    TextColor="#009FE3"
+                                                    />
+                                                
+                                                <Span
+                                                    Text="  "
+                                                    />
+                                                
+                                                <Span x:Name="itemPartTypeLabel"
+                                                    Text="{Binding ItemPartType}"
+                                                    />
+                                                </FormattedString>
+                                            </Label.FormattedText>
+                                        </Label>
+                                    </ViewCell>
+                                </TableSection>
+                        
+                             <TableSection>
+                                <ViewCell>
+                                    <Label Margin="2">
+                                        <Label.FormattedText >
+                                            <FormattedString>
+                                                <Span
+                                                    Text="Revision:"
+                                                    FontAttributes="Bold"
+                                                    TextColor="#009FE3"
+                                                    />
+                                                
+                                                <Span
+                                                    Text="  "
+                                                    />
+                                                
+                                                <Span x:Name="itemRevisionLabel"
+                                                    Text="{Binding ItemRevision}"
+                                                    />
+                                                </FormattedString>
+                                            </Label.FormattedText>
+                                        </Label>
+                                    </ViewCell>
+                                </TableSection>
+                        
+                             <TableSection>
+                                <ViewCell>
+                                    <Label Margin="2">
+                                        <Label.FormattedText>
+                                            <FormattedString>
+                                                <Span
+                                                    Text="Components:"
                                                     FontAttributes="Bold"
                                                     TextColor="#009FE3"
                                                     />
@@ -93,7 +141,7 @@
                                                     />
                                                 
                                                 <Span
-                                                    Text="YES / NO"
+                                                    Text="1234567, 23453676, 75435236"
                                                     />
                                                 </FormattedString>
                                             </Label.FormattedText>

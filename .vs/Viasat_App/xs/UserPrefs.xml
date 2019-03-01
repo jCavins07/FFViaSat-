@@ -1,11 +1,10 @@
 ﻿<Properties StartupConfiguration="{1FDA5C01-26EB-4210-8C69-A1F2056C4C75}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="Viasat_App/ItemPage.xaml">
     <Files>
-      <File FileName="Viasat_App/ResultsPage.xaml.cs" Line="26" Column="52" />
+      <File FileName="Viasat_App/ResultsPage.xaml.cs" Line="52" Column="19" />
       <File FileName="Viasat_App/ResultsPage.xaml" Line="14" Column="64" />
-      <File FileName="Viasat_App/ItemPage.xaml" Line="119" Column="81" />
-      <File FileName="Viasat_App/ItemPage.xaml.cs" Line="13" Column="13" />
-      <File FileName="Viasat_App/Models/ItemModel.cs" Line="1" Column="1" />
+      <File FileName="Viasat_App/ItemPage.xaml.cs" Line="17" Column="9" />
+      <File FileName="Viasat_App/ItemPage.xaml" Line="200" Column="1" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

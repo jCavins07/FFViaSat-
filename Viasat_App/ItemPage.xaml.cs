@@ -33,8 +33,7 @@ namespace Viasat_App
         //END: BUTTONS EVENTS #######################################################
 
 
-
-            //populating the gui with the received item's data.
+        //populating the GUI with the received item's data.
         private void populatePage(ItemModel itemReceived)
         {
             itemTitleLabel.Text = itemReceived.ItemNumber;

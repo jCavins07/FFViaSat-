@@ -1,4 +1,0 @@
-C:\Users\cinbe\OneDrive\Documents\GitHub\FFViaSat-\Viasat_App.Android\obj\Debug\81\MonoAndroid,Version=v8.1.AssemblyAttributes.cs
-C:\Users\cinbe\OneDrive\Documents\GitHub\FFViaSat-\Viasat_App.Android\obj\Debug\81\Viasat_App.Android.csprojAssemblyReference.cache
-C:\Users\cinbe\OneDrive\Documents\GitHub\FFViaSat-\Viasat_App.Android\obj\Debug\81\libraryimports.cache.stamp
-C:\Users\cinbe\OneDrive\Documents\GitHub\FFViaSat-\Viasat_App.Android\obj\Debug\81\res.flag

@@ -1,5 +1,5 @@
---cache=/Users/enriquealonsoesposito/Desktop/Viasat/Project/Viasat_App/FFViaSat-/Viasat_App.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/mtouch-cache
---sim=/Users/enriquealonsoesposito/Desktop/Viasat/Project/Viasat_App/FFViaSat-/Viasat_App.iOS/bin/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/Viasat_App.iOS.app
+--cache=/Users/enriquealonsoesposito/Desktop/Viasat/FFViaSat--branchEnrique/Viasat_App.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/mtouch-cache
+--sim=/Users/enriquealonsoesposito/Desktop/Viasat/FFViaSat--branchEnrique/Viasat_App.iOS/bin/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/Viasat_App.iOS.app
 --executable=Viasat_App.iOS
 --debug
 --nolink
@@ -9,13 +9,13 @@
 --aot-options=-O=-float32
 --http-message-handler=NSUrlSessionHandler
 --abi=x86_64
---symbollist=/Users/enriquealonsoesposito/Desktop/Viasat/Project/Viasat_App/FFViaSat-/Viasat_App.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/mtouch-symbols.list
+--symbollist=/Users/enriquealonsoesposito/Desktop/Viasat/FFViaSat--branchEnrique/Viasat_App.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/mtouch-symbols.list
 --dsym=no
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll
--r=/Users/enriquealonsoesposito/Desktop/Viasat/Project/Viasat_App/FFViaSat-/Viasat_App/bin/Debug/netstandard2.0/Viasat_App.dll
+-r=/Users/enriquealonsoesposito/Desktop/Viasat/FFViaSat--branchEnrique/Viasat_App/bin/Debug/netstandard2.0/Viasat_App.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/Microsoft.Win32.Primitives.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/Microsoft.Win32.Registry.AccessControl.dll
@@ -196,7 +196,7 @@
 -r=/Users/enriquealonsoesposito/.nuget/packages/xamarin.forms/3.3.0.967583/lib/Xamarin.iOS10/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
 -r=/Users/enriquealonsoesposito/.nuget/packages/xamarin.forms/3.3.0.967583/lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
 -r=/Users/enriquealonsoesposito/.nuget/packages/xamarin.forms/3.3.0.967583/lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
--r=/Users/enriquealonsoesposito/Desktop/Viasat/Project/Viasat_App/FFViaSat-/Viasat_App/bin/Debug/netstandard2.0/Viasat_App.dll
+-r=/Users/enriquealonsoesposito/Desktop/Viasat/FFViaSat--branchEnrique/Viasat_App/bin/Debug/netstandard2.0/Viasat_App.dll
 --target-framework=Xamarin.iOS,v1.0
---root-assembly=/Users/enriquealonsoesposito/Desktop/Viasat/Project/Viasat_App/FFViaSat-/Viasat_App.iOS/bin/iPhoneSimulator/Debug/Viasat_App.iOS.exe
+--root-assembly=/Users/enriquealonsoesposito/Desktop/Viasat/FFViaSat--branchEnrique/Viasat_App.iOS/bin/iPhoneSimulator/Debug/Viasat_App.iOS.exe
 

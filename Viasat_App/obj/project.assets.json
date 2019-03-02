@@ -349,11 +349,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/enriquealonsoesposito/Desktop/Viasat/Project/Viasat_App/FFViaSat-/Viasat_App/Viasat_App.csproj",
+      "projectUniqueName": "/Users/enriquealonsoesposito/Desktop/Viasat Clone/FFViaSat-/Viasat_App/Viasat_App.csproj",
       "projectName": "Viasat_App",
-      "projectPath": "/Users/enriquealonsoesposito/Desktop/Viasat/Project/Viasat_App/FFViaSat-/Viasat_App/Viasat_App.csproj",
+      "projectPath": "/Users/enriquealonsoesposito/Desktop/Viasat Clone/FFViaSat-/Viasat_App/Viasat_App.csproj",
       "packagesPath": "/Users/enriquealonsoesposito/.nuget/packages/",
-      "outputPath": "/Users/enriquealonsoesposito/Desktop/Viasat/Project/Viasat_App/FFViaSat-/Viasat_App/obj",
+      "outputPath": "/Users/enriquealonsoesposito/Desktop/Viasat Clone/FFViaSat-/Viasat_App/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
